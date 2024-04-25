@@ -6,19 +6,20 @@
   "configurations": [
     {
       "name": "Blog",
-      "python": "/usr/bin/python3",
-      "type": "debugpy",
+      "python": "D:/Django-Ninja/blog/dnenv/Scripts/python.exe",
+      "type": "python",
       "request": "launch",
-      "program": "/home/ee/Documents/Django-Ninja/finance/manage.py",
+      "program": "D:/Django-Ninja/blog/finance/manage.py",
       "console": "integratedTerminal",
-      "args": ["runserver"],
+      "args": [
+        "runserver"
+      ],
       "django": true,
       "justMyCode": false,
     },
-    
     {
       "name": "Python Debugger: Current File",
-      "type": "debugpy",
+      "type": "python",
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal"
