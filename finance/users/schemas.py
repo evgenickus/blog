@@ -10,13 +10,3 @@ class UserRegistrationSchema(Schema):
 class UserSchema(Schema):
   username: str
   email: str
-
-
-class ArticleSchema(Schema):
-  name: str
-  author: str
-
-class CommentSchema(Schema):
-  comment: str
-  article: str
-  author: str
